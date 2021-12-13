@@ -37,8 +37,7 @@ defmodule Prop.MixProject do
       {:libcluster, "~> 3.2"},
       # Need to wait for a new release with:
       # https://github.com/livebook-dev/livebook/pull/799
-      # {:livebook, "~> 0.4"},
-      {:livebook, github: "livebook-dev/livebook", branch: "main"},
+      {:livebook, "~> 0.4.2"},
       {:master_proxy, "~> 0.1"},
       {:navigator, "~> 0.0.6"},
       {:notified_phoenix, "~> 0.0.7"},
